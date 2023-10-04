@@ -1,0 +1,60 @@
+body{
+    background-color: rgb(231, 231, 231);
+}
+
+*{
+    box-sizing:  border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header .container {
+    display: flex;
+    background-color: rgb(43, 43, 43);
+    color: rgb(231, 231, 231);
+    padding: 16px 0;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+header li{
+    display: inline;
+}
+
+header li a{
+    color: rgb(241, 241, 241);
+    font-size: 15px;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container img{
+    width: 300px;
+}
+
+.container .inside{
+    background-color: rgb(243, 242, 242);
+    width: 300px;
+    margin: 5px 5px;
+}
+
+.container h3{
+    color: rgb(43, 43, 43);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container p{
+    color: rgb(92, 92, 92);
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.inside a{
+    background-color: rgb(211, 211, 211);
+    color: rgb(30, 30, 31);
+    padding: 7px;
+    display: inline-block;
+}

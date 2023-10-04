@@ -58,3 +58,35 @@ header li a{
     padding: 7px;
     display: inline-block;
 }
+
+#video-game .container .inside{
+    background-color: rgb(206, 207, 236);
+}
+
+#video-game .container .inside a{
+    background-color: rgb(175, 177, 211);
+}
+
+#esporte .container .inside {
+    background-color: rgb(209, 236, 206);
+}
+
+#esporte .container .inside a {
+    background-color: rgb(186, 211, 175);
+}
+
+#musica .container .inside {
+    background-color: rgb(236, 218, 206);
+}
+
+#musica .container .inside a {
+    background-color: rgb(211, 175, 175);
+}
+
+#economia .container .inside {
+    background-color: rgb(206, 235, 236);
+}
+
+#economia .container .inside a {
+    background-color: rgb(175, 211, 197);
+}

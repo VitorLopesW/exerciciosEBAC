@@ -3,25 +3,111 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Game Shop - A sua loja de games</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Roboto:ital,wght@0,300;1,400&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <h1>Formulário de cadastro</h1>
+        <div class="container">
+            <h1>
+                Games Shop
+            </h1>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#about">Sobre a Loja</a>
+                    </li>
+                    <li>
+                        <a href="#ctt">Contato</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
     </header>
     <main>
-        <form>
-            <label for="nome">Nome</label>
-            <input id="nome" type="text">
-            <br>
-            <label for="e-mail">E-mail</label>
-            <input id="e-mail" type="text">
-            <br>
-            <label for="senha">Senha</label>
-            <input id="senha" type="text">
-            <br>
-            <button type="submit">Cadastrar!</button>
-        </form>
+        <section id="about">
+            <div class="container">
+                <img src="img/loja.jpeg" alt='game store facade' class="store-front"> 
+                <div>
+                    <h2>
+                        Sobre a Loja
+                    </h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus quisquam nulla molestiae possimus velit iure atque, ipsam aliquam porro, dignissimos pariatur aspernatur cupiditate exercitationem incidunt! Aliquam incidunt voluptates dignissimos blanditiis!
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, corrupti animi mollitia sint natus ullam tenetur nulla, repellat ad, atque eos. Explicabo, at minima recusandae officiis omnis quod et est!
+                    </p>
+                    <ul class="brand-list">
+                        <li>
+                            <img src="img/nintendo.png" alt='nintendo logo'>  
+                        </li>
+                        <li>
+                            <img src="img/playstation.png" alt='sony playstation logo'>  
+                        </li>
+                        <li>
+                            <img src="img/xbox.png" alt='xbox logo'>  
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
     </main>
+    <div class="contant">
+        <section id="ctt">
+            <div class="container">
+                <h2>Contato</h2>
+                <div class="contact-methods">
+                    <div >
+                        <h3>Fale Conosco</h3>
+                        <form>
+                            <input type="text" placeholder="Seu Nome" required>
+                            <input type="email" placeholder="Seu E-mail" required>
+                            <input type="tel" placeholder="Seu telefone(opcional)">
+                            <textarea placeholder="Sua Mensagem" required></textarea>
+                            <button type="submit">Enviar</button>
+                        </form>
+                    </div>
+                    <div>
+                        <h3>Nos acompanhe</h3>
+                        <div class="social-links">
+                            <ul>
+                                <li>
+                                    <a href='#' title="Siga-nos no facebook">
+                                        <img src="img/fb.png" alt='facebook logo'>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href='#' title="Siga-nos no instagram">
+                                        <img src="img/insta.png" alt='instagram logo'>
+                                    </a>
+                                </li>
+                                                            <li>
+                                    <a href='#' title="Siga-nos no Youtube">
+                                        <img src="img/youtube.png" alt='youtube logo'>
+                                    </a>
+                                </li>
+                            </ul>    
+                        </div>
+
+                    </div>
+                    <div>
+                        <h3>Venha até nos</h3>
+                        <p>Rua Javascript nº 19, Vila HTML, São Paulo - SP</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <footer>
+        <div class="container">
+            <p>
+                &copy; Games Shop - Todos os direitos reservados - 2023
+            </p>
+        </div>
+    </footer>
 </body>
 </html>
